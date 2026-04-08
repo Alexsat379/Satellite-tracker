@@ -15,5 +15,7 @@ export function createISS(parentGeometry) {
     mesh.add(issLabel);
 
     parentGeometry.add(mesh);
+
+    mesh.visible = false;
     return mesh;
 }

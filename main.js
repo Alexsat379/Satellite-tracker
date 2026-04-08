@@ -50,6 +50,7 @@ async function updateISS(){
     const pos = await getISSPosition();
     const coords = latLonToXYZ(pos.lat, pos.lon, 1.06);
     iss.position.set(coords.x, coords.y, coords.z);
+    if(!iss.visible) iss.visible = true;
 }
 setInterval(updateISS, 2000);
 
