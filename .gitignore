@@ -1,0 +1,12 @@
+#Dependencias
+node_modules/
+
+#Archivos de entorno
+.env
+
+#Build
+dist/
+build/
+
+#Sistema
+.DS_Store
