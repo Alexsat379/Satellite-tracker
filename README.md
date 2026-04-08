@@ -16,11 +16,13 @@ Visualizador en tiempo real de satélites (ISS) sobre la Tierra en 3D.
 
 ```bash
 npm install
+```
 
 ## ▶️ Uso
 
 ```bash
 npm start
+```
 
 ## 🌍 Demo
 
