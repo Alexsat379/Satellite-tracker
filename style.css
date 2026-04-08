@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.iss-label {
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-top: -1em;
+    user-select: none;
+}
